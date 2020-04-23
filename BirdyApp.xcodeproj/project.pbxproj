@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2F57839B1D3C56C91D9829 /* Pods_BirdyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0404AD9834BF3EC76F2A3BF3 /* Pods_BirdyApp.framework */; };
 		2BC463C4244EF6720033AE7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC463C3244EF6720033AE7A /* AppDelegate.swift */; };
 		2BC463C6244EF6720033AE7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC463C5244EF6720033AE7A /* SceneDelegate.swift */; };
 		2BC463C8244EF6720033AE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC463C7244EF6720033AE7A /* ContentView.swift */; };
@@ -15,6 +16,10 @@
 		2BC463D0244EF6730033AE7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC463CE244EF6730033AE7A /* LaunchScreen.storyboard */; };
 		2BC463DB244EF6730033AE7A /* BirdyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC463DA244EF6730033AE7A /* BirdyAppTests.swift */; };
 		2BC463E6244EF6730033AE7A /* BirdyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC463E5244EF6730033AE7A /* BirdyAppUITests.swift */; };
+		2BC463F5244EF8DE0033AE7A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2BC463F4244EF8DE0033AE7A /* SDWebImageSwiftUI */; };
+		2BC463F7244EFD430033AE7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC463F6244EFD430033AE7A /* GoogleService-Info.plist */; };
+		BFE2703D5E50C70984D6FABB /* Pods_BirdyAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D212C90432FCD009DB92 /* Pods_BirdyAppTests.framework */; };
+		DC0D775F7968B6D2F7851D60 /* Pods_BirdyApp_BirdyAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463269E5C7DAF7BC473F7C4F /* Pods_BirdyApp_BirdyAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0404AD9834BF3EC76F2A3BF3 /* Pods_BirdyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0436ECE18803E4CC8A483074 /* Pods-BirdyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BirdyAppTests/Pods-BirdyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2BC463C0244EF6720033AE7A /* BirdyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC463C3244EF6720033AE7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BC463C5244EF6720033AE7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,14 @@
 		2BC463E1244EF6730033AE7A /* BirdyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC463E5244EF6730033AE7A /* BirdyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyAppUITests.swift; sourceTree = "<group>"; };
 		2BC463E7244EF6730033AE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC463F6244EFD430033AE7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35253136CE155435291F4838 /* Pods-BirdyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdyAppTests.release.xcconfig"; path = "Target Support Files/Pods-BirdyAppTests/Pods-BirdyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		463269E5C7DAF7BC473F7C4F /* Pods_BirdyApp_BirdyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdyApp_BirdyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F1D212C90432FCD009DB92 /* Pods_BirdyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80808871765DD0398DF41F3A /* Pods-BirdyApp-BirdyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdyApp-BirdyAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BirdyApp-BirdyAppUITests/Pods-BirdyApp-BirdyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84617F4CF46AB59EF2EA4587 /* Pods-BirdyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdyApp.debug.xcconfig"; path = "Target Support Files/Pods-BirdyApp/Pods-BirdyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF10C728AE11597EF3ADF105 /* Pods-BirdyApp-BirdyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdyApp-BirdyAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BirdyApp-BirdyAppUITests/Pods-BirdyApp-BirdyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC61F3637BC9809958FBE7F8 /* Pods-BirdyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdyApp.release.xcconfig"; path = "Target Support Files/Pods-BirdyApp/Pods-BirdyApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC463F5244EF8DE0033AE7A /* SDWebImageSwiftUI in Frameworks */,
+				0D2F57839B1D3C56C91D9829 /* Pods_BirdyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE2703D5E50C70984D6FABB /* Pods_BirdyAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0D775F7968B6D2F7851D60 /* Pods_BirdyApp_BirdyAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				2BC463D9244EF6730033AE7A /* BirdyAppTests */,
 				2BC463E4244EF6730033AE7A /* BirdyAppUITests */,
 				2BC463C1244EF6720033AE7A /* Products */,
+				A8BE1D41FFCA32CA759317BB /* Pods */,
+				95E946C3265362BCF5DAA0D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,7 @@
 		2BC463C2244EF6720033AE7A /* BirdyApp */ = {
 			isa = PBXGroup;
 			children = (
+				2BC463F6244EFD430033AE7A /* GoogleService-Info.plist */,
 				2BC463C3244EF6720033AE7A /* AppDelegate.swift */,
 				2BC463C5244EF6720033AE7A /* SceneDelegate.swift */,
 				2BC463C7244EF6720033AE7A /* ContentView.swift */,
@@ -136,6 +158,29 @@
 			path = BirdyAppUITests;
 			sourceTree = "<group>";
 		};
+		95E946C3265362BCF5DAA0D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0404AD9834BF3EC76F2A3BF3 /* Pods_BirdyApp.framework */,
+				463269E5C7DAF7BC473F7C4F /* Pods_BirdyApp_BirdyAppUITests.framework */,
+				79F1D212C90432FCD009DB92 /* Pods_BirdyAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BE1D41FFCA32CA759317BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84617F4CF46AB59EF2EA4587 /* Pods-BirdyApp.debug.xcconfig */,
+				EC61F3637BC9809958FBE7F8 /* Pods-BirdyApp.release.xcconfig */,
+				80808871765DD0398DF41F3A /* Pods-BirdyApp-BirdyAppUITests.debug.xcconfig */,
+				AF10C728AE11597EF3ADF105 /* Pods-BirdyApp-BirdyAppUITests.release.xcconfig */,
+				0436ECE18803E4CC8A483074 /* Pods-BirdyAppTests.debug.xcconfig */,
+				35253136CE155435291F4838 /* Pods-BirdyAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,15 +188,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BC463EA244EF6730033AE7A /* Build configuration list for PBXNativeTarget "BirdyApp" */;
 			buildPhases = (
+				594AC8085343092C63FE5EF3 /* [CP] Check Pods Manifest.lock */,
 				2BC463BC244EF6720033AE7A /* Sources */,
 				2BC463BD244EF6720033AE7A /* Frameworks */,
 				2BC463BE244EF6720033AE7A /* Resources */,
+				4325BA1D66F7FAEC88EA89DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BirdyApp;
+			packageProductDependencies = (
+				2BC463F4244EF8DE0033AE7A /* SDWebImageSwiftUI */,
+			);
 			productName = BirdyApp;
 			productReference = 2BC463C0244EF6720033AE7A /* BirdyApp.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BC463ED244EF6730033AE7A /* Build configuration list for PBXNativeTarget "BirdyAppTests" */;
 			buildPhases = (
+				FDD24C234605FAFEC0FD746B /* [CP] Check Pods Manifest.lock */,
 				2BC463D2244EF6730033AE7A /* Sources */,
 				2BC463D3244EF6730033AE7A /* Frameworks */,
 				2BC463D4244EF6730033AE7A /* Resources */,
@@ -178,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BC463F0244EF6730033AE7A /* Build configuration list for PBXNativeTarget "BirdyAppUITests" */;
 			buildPhases = (
+				03AC78141D945998E5016F08 /* [CP] Check Pods Manifest.lock */,
 				2BC463DD244EF6730033AE7A /* Sources */,
 				2BC463DE244EF6730033AE7A /* Frameworks */,
 				2BC463DF244EF6730033AE7A /* Resources */,
+				3F3C16F7F01F5D494011831B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 2BC463B7244EF6720033AE7A;
+			packageReferences = (
+				2BC463F3244EF8DE0033AE7A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 2BC463C1244EF6720033AE7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC463D0244EF6730033AE7A /* LaunchScreen.storyboard in Resources */,
+				2BC463F7244EFD430033AE7A /* GoogleService-Info.plist in Resources */,
 				2BC463CD244EF6730033AE7A /* Preview Assets.xcassets in Resources */,
 				2BC463CA244EF6730033AE7A /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +318,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AC78141D945998E5016F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdyApp-BirdyAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F3C16F7F01F5D494011831B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdyApp-BirdyAppUITests/Pods-BirdyApp-BirdyAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdyApp-BirdyAppUITests/Pods-BirdyApp-BirdyAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BirdyApp-BirdyAppUITests/Pods-BirdyApp-BirdyAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4325BA1D66F7FAEC88EA89DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdyApp/Pods-BirdyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdyApp/Pods-BirdyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BirdyApp/Pods-BirdyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594AC8085343092C63FE5EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD24C234605FAFEC0FD746B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdyAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BC463BC244EF6720033AE7A /* Sources */ = {
@@ -432,6 +592,7 @@
 		};
 		2BC463EB244EF6730033AE7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84617F4CF46AB59EF2EA4587 /* Pods-BirdyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +612,7 @@
 		};
 		2BC463EC244EF6730033AE7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC61F3637BC9809958FBE7F8 /* Pods-BirdyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +632,7 @@
 		};
 		2BC463EE244EF6730033AE7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0436ECE18803E4CC8A483074 /* Pods-BirdyAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +654,7 @@
 		};
 		2BC463EF244EF6730033AE7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35253136CE155435291F4838 /* Pods-BirdyAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +676,7 @@
 		};
 		2BC463F1244EF6730033AE7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80808871765DD0398DF41F3A /* Pods-BirdyApp-BirdyAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +696,7 @@
 		};
 		2BC463F2244EF6730033AE7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF10C728AE11597EF3ADF105 /* Pods-BirdyApp-BirdyAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +754,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BC463F3244EF8DE0033AE7A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BC463F4244EF8DE0033AE7A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BC463F3244EF8DE0033AE7A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BC463B8244EF6720033AE7A /* Project object */;
 }

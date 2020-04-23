@@ -1,0 +1,6 @@
+framework module Pods_BirdyApp_BirdyAppUITests {
+  umbrella header "Pods-BirdyApp-BirdyAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
